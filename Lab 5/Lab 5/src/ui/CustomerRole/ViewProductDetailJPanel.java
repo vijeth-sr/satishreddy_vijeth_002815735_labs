@@ -79,6 +79,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
         jLabel6.setText("Availability:");
 
         txtAvail.setEditable(false);
+        txtAvail.setText("  ");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);

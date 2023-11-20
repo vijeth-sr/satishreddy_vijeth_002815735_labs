@@ -326,7 +326,7 @@ public class BrowseProductsJPanel extends javax.swing.JPanel {
     }//GEN-LAST:event_btnBackActionPerformed
 
     private void btnProductDetailsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProductDetailsActionPerformed
-        // TODO add your handling code here:
+         // TODO add your handling code here:
         
         int selectedRowIndex = tblProductCatalog.getSelectedRow();
         if(selectedRowIndex < 0){
@@ -483,7 +483,7 @@ public class BrowseProductsJPanel extends javax.swing.JPanel {
         }
             
         else{
-            JOptionPane.showMessageDialog(this, "Pease check product availability");
+            JOptionPane.showMessageDialog(this, "P  ease check product availability");
             return;
         }
         }else{
@@ -536,7 +536,7 @@ public class BrowseProductsJPanel extends javax.swing.JPanel {
         cmbSupplier.removeAllItems();
         
         for(Supplier s: supplierDirectory.getSupplierlist()){
-            cmbSupplier.addItem(s);
+            cmbSupplier.addItem(s); 
         }
         
     }
